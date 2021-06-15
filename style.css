@@ -1,0 +1,340 @@
+/* HTML */
+html{
+    height: 100%;
+}
+
+/* BODY */
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* INDEX MENU */
+.index-menu-item{
+    font-family: century gothic;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-align: center;  
+    border: 2px solid white;
+    border-radius: 10%;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 40%;
+    background-color: rgba(200,200,200,0.5);
+}
+
+.index-menu-item:hover{
+      
+    border: 3px solid black;
+}
+
+/* INDEX BODY */
+.index-body{
+    background-image: url('images/bg.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+#logo{
+    width:250px;
+    display: block;
+    margin: auto;
+    padding: 25px 10px 10px 10px;
+}
+
+/* EDIBLES MENU */
+
+h1{
+    margin-top: 10px;
+    font-family: century gothic;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: chocolate;
+    float: right;
+    margin-right: 130px;
+}
+
+h2{
+    font-size: 15px;
+    text-align: center;
+    font-family: century gothic;
+    color: navajowhite;
+}
+h3{
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+p{
+    padding-left: 10px;
+}
+.edibles-menu a{
+    text-decoration: none;
+    border: 2px solid chocolate;
+    display: block;
+    width: 50%;
+    margin-right: 100px;
+    margin-bottom: 10px;
+    color: saddlebrown;
+    background-color: rgba(200,200,200,0.5);
+    float: right;
+    font-weight: 1000;
+    font-family: century gothic;
+}
+
+.edibles-menu a:hover{
+    border: 4px solid black;
+    color: black;
+}
+
+.edibles-body{
+    background-image: url('images/edibles.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+i{
+    float: right;
+    margin-right:50px;
+    font-size: 30px;
+}
+
+#edibles{
+    padding-top:70px;
+}
+
+.nav{
+    background-color: chocolate;
+    width:100%;
+    height: 80px;
+    top: 0;
+    position: fixed;
+    overflow: hidden;
+    text-align: center; 
+}
+
+.nav i{
+    float: left;
+    padding: 16px 0px 0px 19px;
+    color: black;
+}
+
+.nav i:hover{
+    color: white;
+}
+
+.nav img{
+    width: 150px;
+    height: 50px;
+    padding-top: 14px;
+    padding-right: 25px;
+}
+
+/* LIQUID-MENU */
+.liquid-body{
+    background-image: url('images/drink.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.liquid-menu a{
+    text-decoration: none;
+    border: 2px solid chocolate;
+    display: block;
+    width: 50%;
+    margin-right: 250px;
+    margin-bottom: 10px;
+    color: saddlebrown;
+    background-color: rgba(200,200,200,0.5);
+    float: right;
+    font-weight: 1000;
+    font-family: century gothic;
+}
+
+.liquid-menu a:hover{
+    border: 4px solid black;
+    color: black;
+}
+
+#liquid{
+    padding-top:60px;
+}
+
+#liquidh1{
+    padding-top: 50px;
+    float: right;
+    margin-right: 230px;
+}
+
+/* GOODIES-MENU */
+.goodies-body{
+    background-image: url('images/goodies.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.goodies-menu a{
+    text-decoration: none;
+    border: 2px solid chocolate;
+    display: block;
+    width: 50%;
+    margin-right: 250px;
+    margin-bottom: 10px;
+    color: saddlebrown;
+    background-color: rgba(200,200,200,0.5);
+    float: right;
+    font-weight: 1000;
+    font-family: century gothic;
+}
+
+.goodies-menu a:hover{
+    border: 4px solid black;
+    color: black;
+}
+
+#goodies{
+    padding-top:60px;
+}
+
+#goodiesh1{
+    padding-top: 50px;
+    float: right;
+    margin-right: 230px;
+}
+
+/* EDIBLES IMAGES*/
+
+#image{
+    padding-top: 81px;
+}
+
+#meal-name{
+    margin-top: 0;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: chocolate;  
+}
+
+.details h4{
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 18px;
+    border: 2px;
+    background-color: chocolate;
+    color: white;
+    font-family: sans-serif;
+}
+
+.write-up h5{
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 0px;
+    color:white;
+}
+
+.items{
+    background-image: url('images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+h6{
+    font-size: 30px;
+    text-align: left;
+    margin: 0;
+    margin-left: 0px;
+    color: chocolate;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+li{
+    color: white;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: chocolate;
+    margin-bottom: 5px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+textarea{
+    width: 90%;
+    height: 70px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+.button{
+    display: block;
+    width: 20%;
+    background-color: black;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+    padding: 12px;
+    margin-left: 35%;
+    
+}
+
+.button:hover{
+    color: black;
+    background-color: chocolate;
+}
+
+#order{
+    padding-top:80px;
+    width:50%;
+    height: 50%;
+    margin-left: 25%;
+    margin-top: 10%;
+    margin-top: 10%;
+}
+
+
+/*========== RESPONSIVE LAYOUT ==========*/
+
+@media only screen and (min-width:600px){
+    #edibles{
+        width: 80%;
+        margin: auto;
+    }
+    
+    #goodies{
+        width: 80%;
+        margin: auto;
+    }
+    
+    #liquid{
+        width: 80%;
+        margin: auto;
+    }
+}
+
+
+
